@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "Airtel Usage",
+	"description": "Shows your Airtel Internet usage if you are on a broadband Airtel connection in India. Not affiliated with Airtel in any way.",
+	"version": "1.0",
+
+	"permissions": [
+		"http://122.160.230.125:8080/"
+	],
+
+	"icons": {
+		"128": "airtel_128.png",
+		"48": "airtel_48.png",
+		"16": "airtel_16.png"
+	},
+
+	"author": "Rakesh Pai <https://github.com/rakeshpai/>",
+
+	"browser_action": {
+		"default_icon": "airtel_48.png",
+		"default_title": "See your current Airtel usage",
+		"default_popup": "popup.html"
+	}
+}
